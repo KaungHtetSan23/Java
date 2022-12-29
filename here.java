@@ -1,7 +1,9 @@
 public class here{
     public static void main(String[] args){
-        int x = 9;
-        int y = 1;
-        System.out.println("z="+(x+y));
+        System.out.println(Sum(2, 1));
+    }
+
+    public static int Sum(int x,int y){
+        return (x+y);
     }
 }
